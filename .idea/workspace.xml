@@ -1,33 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9a206ca-b991-4adb-8d0f-b2823b028fc6" name="Changes" comment="" />
+    <list default="true" id="b9a206ca-b991-4adb-8d0f-b2823b028fc6" name="Changes" comment="Add eslint, prettier and some setup to format the code in the right way">
+      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/atoms/buttonOne.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/atoms/container.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/atoms/heading.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/atoms/overline.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/atoms/subtitle.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/core/navigation.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/utils/svg/card.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/utils/svg/hamburger.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/utils/svg/logo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/widgets/hero.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/widgets/productCards.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/design-system.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/cart/image-xx59-headphones.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/default.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuxt.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2MS7eaR8qJ2S5ZmnfG5wVSRx1Pz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/decgngwg/github/projects/audiophile-ecommerce-website",
+    "js.linters.configure.manually.selectedeslint": "true",
+    "last_opened_file_path": "/Users/decgngwg/github/projects/audiophile-ecommerce-website/assets",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "/Users/decgngwg/github/projects/audiophile-ecommerce-website/node_modules/eslint",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "pnpm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/decgngwg/github/projects/audiophile-ecommerce-website/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
     "ts.external.directory.path": "/Users/decgngwg/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/223.8617.56/IntelliJ IDEA.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/components/atoms" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components/widgets" />
+      <recent name="$PROJECT_DIR$/components/utils/svg" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -40,11 +95,30 @@
       <option name="presentableId" value="Default" />
       <updated>1677749226293</updated>
       <workItem from="1677749228402" duration="26000" />
-      <workItem from="1677749266833" duration="574000" />
+      <workItem from="1677749266833" duration="27358000" />
+      <workItem from="1677832285541" duration="17976000" />
     </task>
+    <task id="LOCAL-00001" summary="Add assets to public and assets folder">
+      <created>1677872520265</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677872520265</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Add assets to public and assets folder" />
+    <MESSAGE value="Add eslint, prettier and some setup to format the code in the right way" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add eslint, prettier and some setup to format the code in the right way" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
