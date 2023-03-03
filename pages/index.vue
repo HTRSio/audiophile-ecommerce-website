@@ -1,8 +1,21 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+const data = {
+  subTitle: "New product",
+  title: "XX99 Mark II Headphones",
+  content:
+    "Experience natural, lifelike audio and exceptional build quality made for the passionate music enthusiast.",
+  buttonText: "See product",
+  buttonUrl: "#",
+};
+</script>
 
 <template>
   <div>
-    Page: foo
+    <CoreNavigation />
+    <main>
+      <WidgetsHero :data="data" />
+      <WidgetsProductHighlights />
+    </main>
   </div>
 </template>
 
