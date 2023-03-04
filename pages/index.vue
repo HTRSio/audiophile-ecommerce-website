@@ -13,8 +13,8 @@ const data = {
   <div>
     <CoreNavigation />
     <main>
-      <WidgetsHero :data="data" />
-      <WidgetsProductHighlights />
+      <WidgetsHomeHero :data="data" />
+      <WidgetsHomeProductHighlights />
     </main>
   </div>
 </template>
