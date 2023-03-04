@@ -32,9 +32,9 @@ const props = defineProps({
               {{ props.data.content }}
             </p>
             <div class="flex justify-center desktop:justify-start">
-              <AtomsButtonOne>
+              <AtomsButton variant="one">
                 {{ props.data.buttonText }}
-              </AtomsButtonOne>
+              </AtomsButton>
             </div>
           </div>
         </div>
