@@ -4,7 +4,7 @@ const props = defineProps({
     type: String,
     default: "div",
     validator(value) {
-      return ["span", "div"].includes(value);
+      return ["span", "div"].includes(value.toLowerCase());
     },
   },
 });
