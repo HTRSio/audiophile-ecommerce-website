@@ -2,20 +2,20 @@
 const props = defineProps({
   linkType: {
     type: String,
-    default: 'nuxt-link',
+    default: "nuxt-link",
   },
   linkPath: {
     type: String,
-    default: '#',
+    default: "#",
   },
   variant: {
     type: String,
-    default: 'one',
+    default: "one",
     validator: (value) => {
-      return ['one', 'two', 'three'].includes(value.toLowerCase())
+      return ["one", "two", "three", "four"].includes(value.toLowerCase());
     },
   },
-})
+});
 </script>
 
 <template>
@@ -28,8 +28,11 @@ const props = defineProps({
     :class="props.variant"
   >
     <span
-      class="flex justify-center items-center"
-      :class="props.variant === 'three' ? 'gap-2' : null"
+      :class="
+        props.variant === 'three'
+          ? 'gap-2 flex justify-center items-center w-full'
+          : 'flex justify-center items-center w-full'
+      "
     >
       <slot />
       <span v-if="props.variant === 'three'">
@@ -63,5 +66,9 @@ const props = defineProps({
 
 .three {
   @apply text-black hover:text-primary;
+}
+
+.four {
+  @apply bg-black text-white hover:text-primary;
 }
 </style>

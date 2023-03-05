@@ -4,7 +4,7 @@ const props = defineProps({
     type: Object,
     default() {},
   },
-})
+});
 </script>
 
 <template>
@@ -13,7 +13,7 @@ const props = defineProps({
       class="mx-auto h-[600px] tablet:h-[729px] max-w-screen-mobile tablet:max-w-screen-tablet desktop:max-w-screen-desktop"
     >
       <div
-        class="w-full h-full bg-center bg-no-repeat bg-cover bg-opacity-50 border-solid border-seventh bg-[url('../home/mobile/image-header.jpg')] tablet:bg-[url('../home/tablet/image-header.jpg')] desktop:bg-[url('../home/desktop/image-hero.jpg')]"
+        class="pt-[6rem] px-6 tablet:px-0 tablet:w-full h-full bg-center bg-no-repeat bg-cover bg-opacity-50 border-solid border-seventh bg-[url('../home/mobile/image-header.jpg')] tablet:bg-[url('../home/tablet/image-header.jpg')] desktop:bg-[url('../home/desktop/image-hero.jpg')]"
       >
         <div class="flex h-full items-center">
           <div

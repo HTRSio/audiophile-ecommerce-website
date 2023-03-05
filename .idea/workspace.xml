@@ -4,26 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9a206ca-b991-4adb-8d0f-b2823b028fc6" name="Changes" comment="Add @antfu/eslint-config">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/atoms/section.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/widgets/home/productCategories.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
+    <list default="true" id="b9a206ca-b991-4adb-8d0f-b2823b028fc6" name="Changes" comment="Add tablet and mobile view">
+      <change afterPath="$PROJECT_DIR$/components/atoms/imagePictures.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/utils/svg/circle.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/widgets/home/promoFullHeight.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/widgets/home/promoHalfHeight.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/atoms/button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/atoms/button.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/atoms/container.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/utils/products/categoriesCard.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/atoms/heading.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/atoms/heading.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/atoms/overline.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/atoms/overline.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/atoms/subtitle.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/atoms/subtitle.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/core/navigation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/core/navigation.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/utils/svg/card.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/utils/svg/card.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/utils/svg/hamburger.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/utils/svg/hamburger.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/utils/svg/logo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/utils/svg/logo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/atoms/section.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/atoms/section.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/utils/products/categoriesCard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/utils/products/categoriesCard.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/widgets/home/hero.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/widgets/home/hero.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/widgets/home/productHighlights.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/widgets/productHighlights.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/design-system.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/design-system.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/widgets/home/productCategories.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/widgets/home/productCategories.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
@@ -92,7 +86,7 @@
       <workItem from="1677749228402" duration="26000" />
       <workItem from="1677749266833" duration="27358000" />
       <workItem from="1677832285541" duration="33773000" />
-      <workItem from="1678001103173" duration="4698000" />
+      <workItem from="1678001103173" duration="27669000" />
     </task>
     <task id="LOCAL-00001" summary="Add assets to public and assets folder">
       <created>1677872520265</created>
@@ -283,7 +277,56 @@
       <option name="project" value="LOCAL" />
       <updated>1678002401177</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Lint fix">
+      <created>1678005943921</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1678005943921</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Add default section for the body area">
+      <created>1678005976587</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1678005976587</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Add Product categories">
+      <created>1678005998754</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1678005998754</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Remove">
+      <created>1678006015804</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1678006015804</updated>
+    </task>
+    <task id="LOCAL-00032" summary="System">
+      <created>1678006023812</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1678006023812</updated>
+    </task>
+    <task id="LOCAL-00033" summary="System">
+      <created>1678006030536</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1678006030536</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Add tablet and mobile view">
+      <created>1678006993114</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1678006993114</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,12 +334,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add some styles to body tag, change to NuxtLayout and NuxtPage" />
-    <MESSAGE value="Navigation - Add Shopping Card as component" />
-    <MESSAGE value="Add an default layout file" />
-    <MESSAGE value="Navigatio - Hamburger as Component" />
-    <MESSAGE value="Add heading tags as component" />
-    <MESSAGE value="Navigation - Add logo as component" />
     <MESSAGE value="Add Navigation" />
     <MESSAGE value="Add nuxt/image-edge" />
     <MESSAGE value="Add assets to asset and public folder" />
@@ -316,7 +353,13 @@
     <MESSAGE value="Add Production Highlight widget to folder home" />
     <MESSAGE value="Add z-index 50" />
     <MESSAGE value="Add @antfu/eslint-config" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add @antfu/eslint-config" />
+    <MESSAGE value="Lint fix" />
+    <MESSAGE value="Add default section for the body area" />
+    <MESSAGE value="Add Product categories" />
+    <MESSAGE value="Remove" />
+    <MESSAGE value="System" />
+    <MESSAGE value="Add tablet and mobile view" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add tablet and mobile view" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

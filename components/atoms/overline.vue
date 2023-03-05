@@ -2,12 +2,12 @@
 const props = defineProps({
   tag: {
     type: String,
-    default: 'div',
+    default: "div",
     validator(value) {
-      return ['span', 'div'].includes(value.toLowerCase())
+      return ["span", "div"].includes(value.toLowerCase());
     },
   },
-})
+});
 </script>
 
 <template>
