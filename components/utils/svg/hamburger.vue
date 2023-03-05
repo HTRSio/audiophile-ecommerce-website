@@ -8,7 +8,7 @@ const props = defineProps({
     type: Number,
     default: 16,
   },
-});
+})
 </script>
 
 <template>

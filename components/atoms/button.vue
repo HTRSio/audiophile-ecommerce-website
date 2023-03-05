@@ -2,20 +2,20 @@
 const props = defineProps({
   linkType: {
     type: String,
-    default: "nuxt-link",
+    default: 'nuxt-link',
   },
   linkPath: {
     type: String,
-    default: "#",
+    default: '#',
   },
   variant: {
     type: String,
-    default: "one",
+    default: 'one',
     validator: (value) => {
-      return ["one", "two", "three"].includes(value.toLowerCase());
+      return ['one', 'two', 'three'].includes(value.toLowerCase())
     },
   },
-});
+})
 </script>
 
 <template>
@@ -29,10 +29,10 @@ const props = defineProps({
   >
     <span
       class="flex justify-center items-center"
-      :class="props.variant == 'three' ? 'gap-2' : null"
+      :class="props.variant === 'three' ? 'gap-2' : null"
     >
       <slot />
-      <span v-if="props.variant == 'three'">
+      <span v-if="props.variant === 'three'">
         <svg width="8" height="12" xmlns="http://www.w3.org/2000/svg">
           <path
             d="M1.322 1l5 5-5 5"

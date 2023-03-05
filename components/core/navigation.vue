@@ -1,10 +1,10 @@
 <script lang="ts" setup>
 const links = [
-  { text: "home", url: "#" },
-  { text: "Headphones", url: "#" },
-  { text: "Speakers", url: "#" },
-  { text: "Earphones", url: "#" },
-];
+  { text: 'home', url: '#' },
+  { text: 'Headphones', url: '#' },
+  { text: 'Speakers', url: '#' },
+  { text: 'Earphones', url: '#' },
+]
 </script>
 
 <template>
@@ -42,7 +42,7 @@ const links = [
       </nav>
       <div
         class="w-full border-b border-b-solid border-b-tenth opacity-50 pt-7"
-      ></div>
+      />
     </div>
   </header>
 </template>

@@ -1,11 +1,11 @@
 <script lang="ts" setup>
-import "@fontsource/manrope";
+import '@fontsource/manrope'
 
 useHead({
   bodyAttrs: {
-    class: ["antialiased", "debug-screens", "font-sans", "text-15"],
+    class: ['antialiased', 'debug-screens', 'font-sans', 'text-15'],
   },
-});
+})
 </script>
 
 <template>

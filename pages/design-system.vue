@@ -2,12 +2,24 @@
 
 <template>
   <div>
-    <AtomsHeading tag="h1">Morbi Interdum Moolis Sapien</AtomsHeading>
-    <AtomsHeading tag="h2">Donec nec justo Edget Felis Facilisis</AtomsHeading>
-    <AtomsHeading tag="h3">Nunc sem Lacus Accum</AtomsHeading>
-    <AtomsHeading tag="h4">Interdum Consectetuer</AtomsHeading>
-    <AtomsHeading tag="h5">Nascetur Ridiculus mus</AtomsHeading>
-    <AtomsHeading tag="h6">Natoque Penatibus et</AtomsHeading>
+    <AtomsHeading tag="h1">
+      Morbi Interdum Moolis Sapien
+    </AtomsHeading>
+    <AtomsHeading tag="h2">
+      Donec nec justo Edget Felis Facilisis
+    </AtomsHeading>
+    <AtomsHeading tag="h3">
+      Nunc sem Lacus Accum
+    </AtomsHeading>
+    <AtomsHeading tag="h4">
+      Interdum Consectetuer
+    </AtomsHeading>
+    <AtomsHeading tag="h5">
+      Nascetur Ridiculus mus
+    </AtomsHeading>
+    <AtomsHeading tag="h6">
+      Natoque Penatibus et
+    </AtomsHeading>
     <AtomsOverline>Lorem Ipsum</AtomsOverline>
     <AtomsSubtitle>Fusce ut est sed Dolor Gravida Convallis</AtomsSubtitle>
     <p class="text-body">
