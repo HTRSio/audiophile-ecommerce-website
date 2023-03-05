@@ -4,7 +4,7 @@ const props = defineProps({
     type: Object,
     default() {},
   },
-});
+})
 </script>
 
 <template>
@@ -32,7 +32,7 @@ const props = defineProps({
               {{ props.data.content }}
             </p>
             <div class="flex justify-center desktop:justify-start">
-              <AtomsButton variant="one">
+              <AtomsButton variant="one" :link-path="props.data.buttonText">
                 {{ props.data.buttonText }}
               </AtomsButton>
             </div>
