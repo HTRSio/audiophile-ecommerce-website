@@ -1,16 +1,6 @@
 {
-  "root": true,
-  "env": {
-    "browser": true,
-    "node": true
-  },
-  "plugins": [
-    "nuxt"
-  ],
   "extends": [
-    "@nuxtjs/eslint-config",
-    "plugin:nuxt/recommended",
-    "plugin:prettier/recommended"
+    "@antfu"
   ],
 
   "rules": {
