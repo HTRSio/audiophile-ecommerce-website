@@ -8,7 +8,7 @@ const links = [
 </script>
 
 <template>
-  <header class="bg-overlay fixed top-0 w-full">
+  <header class="bg-overlay fixed top-0 w-full z-50">
     <div
       class="mx-auto max-w-screen-mobile tablet:max-w-screen-tablet desktop:max-w-screen-desktop pt-8"
     >
