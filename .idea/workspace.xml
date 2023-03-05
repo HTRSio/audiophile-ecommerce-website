@@ -4,33 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9a206ca-b991-4adb-8d0f-b2823b028fc6" name="Changes" comment="Add eslint, prettier and some setup to format the code in the right way">
-      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
+    <list default="true" id="b9a206ca-b991-4adb-8d0f-b2823b028fc6" name="Changes" comment="Add @antfu/eslint-config">
       <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/atoms/buttonOne.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/atoms/container.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/atoms/heading.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/atoms/overline.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/atoms/subtitle.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/core/navigation.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/utils/svg/card.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/utils/svg/hamburger.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/utils/svg/logo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/widgets/hero.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/widgets/productCards.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/design-system.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/cart/image-xx59-headphones.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/atoms/section.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/widgets/home/productCategories.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/default.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nuxt.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/atoms/button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/atoms/button.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/atoms/container.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/utils/products/categoriesCard.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/atoms/heading.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/atoms/heading.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/atoms/overline.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/atoms/overline.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/atoms/subtitle.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/atoms/subtitle.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/core/navigation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/core/navigation.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/utils/svg/card.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/utils/svg/card.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/utils/svg/hamburger.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/utils/svg/hamburger.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/utils/svg/logo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/utils/svg/logo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/widgets/home/hero.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/widgets/home/hero.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/widgets/home/productHighlights.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/widgets/productHighlights.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/design-system.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/design-system.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +64,7 @@
     "nodejs_package_manager_path": "pnpm",
     "prettierjs.PrettierConfiguration.Package": "/Users/decgngwg/github/projects/audiophile-ecommerce-website/node_modules/prettier",
     "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "ts.external.directory.path": "/Users/decgngwg/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/223.8617.56/IntelliJ IDEA.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
+    "ts.external.directory.path": "/Users/decgngwg/github/projects/audiophile-ecommerce-website/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -81,6 +75,7 @@
       <recent name="$PROJECT_DIR$/components/atoms" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components/widgets/home" />
       <recent name="$PROJECT_DIR$/components/widgets" />
       <recent name="$PROJECT_DIR$/components/utils/svg" />
       <recent name="$PROJECT_DIR$" />
@@ -96,7 +91,8 @@
       <updated>1677749226293</updated>
       <workItem from="1677749228402" duration="26000" />
       <workItem from="1677749266833" duration="27358000" />
-      <workItem from="1677832285541" duration="17976000" />
+      <workItem from="1677832285541" duration="33773000" />
+      <workItem from="1678001103173" duration="4698000" />
     </task>
     <task id="LOCAL-00001" summary="Add assets to public and assets folder">
       <created>1677872520265</created>
@@ -105,7 +101,189 @@
       <option name="project" value="LOCAL" />
       <updated>1677872520265</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add eslint, prettier and some setup to format the code in the right way">
+      <created>1677872642681</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677872642681</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add some styles to body tag, change to NuxtLayout and NuxtPage">
+      <created>1677872727868</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677872727868</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Navigation - Add Shopping Card as component">
+      <created>1677872776350</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677872776351</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add an default layout file">
+      <created>1677872813780</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677872813780</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Navigatio - Hamburger as Component">
+      <created>1677872850850</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677872850850</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add heading tags as component">
+      <created>1677872897614</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677872897614</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Navigation - Add logo as component">
+      <created>1677872915182</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677872915182</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add Navigation">
+      <created>1677872936466</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677872936466</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add nuxt/image-edge">
+      <created>1677872958200</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1677872958200</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add assets to asset and public folder">
+      <created>1677872985930</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677872985930</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add overline component">
+      <created>1677873006547</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1677873006547</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Add subtitle as component">
+      <created>1677873020513</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1677873020513</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Add fontSize, letterSpacing colors and fontFamily">
+      <created>1677873071896</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1677873071896</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Show design system">
+      <created>1677873090346</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1677873090346</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Add button one as component">
+      <created>1677873106779</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1677873106779</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Add hero for homepage as component">
+      <created>1677873121982</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1677873121982</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Add Container homepage sections">
+      <created>1677873278165</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1677873278165</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Add product highlights as component">
+      <created>1677873323592</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1677873323592</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Add hero and product highlight widgets">
+      <created>1677873424180</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1677873424180</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Recreate to use one component for the three styles">
+      <created>1677953060913</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1677953060914</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Add toLowerCase to check the value in validator">
+      <created>1677953164228</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1677953164228</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Add new button component">
+      <created>1677953186980</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1677953186980</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Rewrite home component">
+      <created>1677953213163</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1677953213163</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Add Production Highlight widget to folder home">
+      <created>1677953266890</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1677953266890</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Add z-index 50">
+      <created>1678000827017</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1678000827017</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Add @antfu/eslint-config">
+      <created>1678002401177</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1678002401177</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,9 +291,32 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add assets to public and assets folder" />
-    <MESSAGE value="Add eslint, prettier and some setup to format the code in the right way" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add eslint, prettier and some setup to format the code in the right way" />
+    <MESSAGE value="Add some styles to body tag, change to NuxtLayout and NuxtPage" />
+    <MESSAGE value="Navigation - Add Shopping Card as component" />
+    <MESSAGE value="Add an default layout file" />
+    <MESSAGE value="Navigatio - Hamburger as Component" />
+    <MESSAGE value="Add heading tags as component" />
+    <MESSAGE value="Navigation - Add logo as component" />
+    <MESSAGE value="Add Navigation" />
+    <MESSAGE value="Add nuxt/image-edge" />
+    <MESSAGE value="Add assets to asset and public folder" />
+    <MESSAGE value="Add overline component" />
+    <MESSAGE value="Add subtitle as component" />
+    <MESSAGE value="Add fontSize, letterSpacing colors and fontFamily" />
+    <MESSAGE value="Show design system" />
+    <MESSAGE value="Add button one as component" />
+    <MESSAGE value="Add hero for homepage as component" />
+    <MESSAGE value="Add Container homepage sections" />
+    <MESSAGE value="Add product highlights as component" />
+    <MESSAGE value="Add hero and product highlight widgets" />
+    <MESSAGE value="Recreate to use one component for the three styles" />
+    <MESSAGE value="Add toLowerCase to check the value in validator" />
+    <MESSAGE value="Add new button component" />
+    <MESSAGE value="Rewrite home component" />
+    <MESSAGE value="Add Production Highlight widget to folder home" />
+    <MESSAGE value="Add z-index 50" />
+    <MESSAGE value="Add @antfu/eslint-config" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add @antfu/eslint-config" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
